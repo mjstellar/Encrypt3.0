@@ -6,7 +6,7 @@ public class Main {
         System.out.println("To stop the program print «stop the program» \uD83D\uDE01");
         while (true) {
             Scanner scanner = new Scanner(System.in);
-            String inputText = scanner.nextLine();
+            String inputText = scanner.nextLine().toLowerCase();
 
             if (inputText.equals("stop the program")) {
                 break;
